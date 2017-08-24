@@ -19,7 +19,7 @@ To run this sample you will need:
 - An Azure subscription
 - Latest Azure Media Services .NET SDK (which will be installed when you re-build the project).
 
-### Step 1:  Clone or download this repository.
+### Step 1:  Clone or download this repository
 
 ### Step 2: Update the app.config file
 
