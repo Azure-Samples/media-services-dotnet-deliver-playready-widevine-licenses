@@ -25,21 +25,21 @@ To run this sample you will need:
 
 Update the appSettings section of the app.config file with values of your Azure Media Services account.
 
-		  <appSettings>
-		    <add key="MediaServicesAccountName" value="MediaServicesAccountName" />
-		    <add key="MediaServicesAccountKey" value="MediaServicesAccountKey" />
-		    <add key="Issuer" value="http://testacs.com" />
-		    <add key="Audience" value="urn:test" />
-		  </appSettings>
-		  
-### Step 3: Get at least one streaming unit
+	<appSettings>
+		<add key="AMSAADTenantDomain" value="AADTenantDomain" />
+		<add key="AMSRESTAPIEndpoint" value="RESTAPIEndpoint" />
 
-Get at least one streaming unit for the streaming endpoint from which you plan to delivery your content. For more information, see: [configure streaming endpoints](http://azure.microsoft.com/documentation/articles/media-services-dotnet-get-started/#configure-streaming-endpoint-using-the-portal)
+		<add key="Issuer" value="http://testacs.com" />
+		<add key="Audience" value="urn:test" />
+	</appSettings>
+		  
+### Step 3: Start a streaming endpoint
+
+Make sure to start the streaming endpoint. For more information, see: [streaming endpoints](https://docs.microsoft.com/azure/media-services/media-services-portal-manage-streaming-endpoints)
 
 ### Step 4:  Run the sample
 
 Clean the solution, rebuild the solution, and run it. 
-
 
 ## About the code
 
