@@ -23,7 +23,7 @@ To run this sample you will need:
 
 ### Step 2: Update the app.config file
 
-Update the appSettings section of the app.config file with values of your Azure Media Services account.
+Update the appSettings section of the app.config file with appropriate values. For more information, see [this](https://docs.microsoft.com/azure/media-services/media-services-use-aad-auth-to-access-ams-api) topic.
 
 	<appSettings>
 		<add key="AMSAADTenantDomain" value="AADTenantDomain" />
@@ -35,7 +35,7 @@ Update the appSettings section of the app.config file with values of your Azure 
 		  
 ### Step 3: Start a streaming endpoint
 
-Make sure to start the streaming endpoint. For more information, see: [streaming endpoints](https://docs.microsoft.com/azure/media-services/media-services-portal-manage-streaming-endpoints)
+Make sure to start the streaming endpoint. For more information, see: [streaming endpoints](https://docs.microsoft.com/azure/media-services/media-services-portal-manage-streaming-endpoints).
 
 ### Step 4:  Run the sample
 
