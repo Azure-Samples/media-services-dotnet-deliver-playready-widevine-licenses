@@ -1,7 +1,11 @@
 ---
-services: media-services
-platforms: dotnet
-author: Juliako
+page_type: sample
+languages:
+- csharp
+products:
+- azure
+description: "Azure Media Services (AMS) enables you to ingest, encode, add content protection, and stream your content (see this article for details)."
+urlFragment: media-services-dotnet-deliver-playready-widevine-licenses
 ---
 
 # Use Azure Media Services to deliver PlayReady and/or Widevine licenses with .NET
