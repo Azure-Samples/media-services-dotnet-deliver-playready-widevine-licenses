@@ -10,6 +10,12 @@ urlFragment: media-services-dotnet-deliver-playready-widevine-licenses
 
 # Use Azure Media Services v2 to deliver PlayReady and/or Widevine licenses with .NET
 
+## NOTE
+ 
+You can find the latest and most extensive Media Services v3 .NET samples in the [Azure Media Services v3](https://github.com/Azure-Samples/media-services-v3-dotnet) repository.
+
+## Overview
+
 Azure Media Services (AMS) enables you to ingest, encode, add content protection, and stream your content (see this article for details). However, there are customers who only want to use AMS to deliver licenses and/or keys and do encoding, encrypting and streaming using their on-premises servers. This samples shows how to configure AMS to deliver PlayReady and/or Widevine licenses.
 
 For detailed information about the sample, see [Use AMS to deliver PlayReady and/or Widevine licenses or AES keys](http://azure.microsoft.com/documentation/articles/media-services-deliver-keys-and-licenses/).
